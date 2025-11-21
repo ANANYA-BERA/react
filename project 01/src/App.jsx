@@ -1,9 +1,8 @@
 import React from 'react'
-import './App.css'
-
+import './index.css'
 const App = () => {
   return (
-     <div className='parent'>
+    <div className='parent'>
       <div className="card">
         <div className="main">
         <div className="top">
