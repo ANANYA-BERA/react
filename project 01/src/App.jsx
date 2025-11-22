@@ -4,23 +4,35 @@ const App = () => {
   return (
     <div className='parent'>
       <div className="card">
-        <div className="main">
+        
         <div className="top">
-            <p>19 Nov 2025</p>
-            <button>save</button>
+          <div className="logo">
+             <img src="/amazon_logo.jpg" alt="external-link" />
+          </div>
+            <button>Save
+             <img className='btn-img' src="/bookmark.png"/></button>
         </div>
 
         <div className="center">
-          <p>Amazon</p>
-          <span>Senior UI/UX Designer
-            <img src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg" alt="external-link" />
-          </span>
-          .
+          <div className="span">
+          <h3>Amazon</h3>
+          <p>5 days ago</p>
+          </div>
+          <h2>Graphic Designer</h2>
+          <div className="btn">
+          <button>Full-Time</button>
+          <button>Flexible Schedule</button>
+          </div>
+          
         </div>
-        </div>
+        
 
         <div className="bottom">
-
+          <div className="lft">
+          <h2>$100/hr</h2>
+          <p>Delhi, India</p>
+          </div>
+          <button>Apply Now</button>
         </div>
 
      </div> 

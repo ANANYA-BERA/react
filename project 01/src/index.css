@@ -15,38 +15,124 @@
 }
 
 .parent{
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  padding: 40px 40px;
   display: flex;
-  gap: 20px;
+ 
+ 
 }
 
 .card{
-  height: 250px;
-  width: 220px;
+  height: 300px;
+  width: 260px;
   background-color: #fff;
   color: black;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 27px;
 }
 
 .top{
-  font-size: 1rem ;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
 }
+
+
+.logo img{
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+  border: 7px solid #e8e5e5;
+}
+
 
 .top button{
-  padding: 5px 10px;
-  border-radius: 5px;
+  color: rgb(78, 77, 77);
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 7px;
   cursor: pointer;
-  border: 1px solid black;
+  border: 1.5px solid rgb(177, 176, 176);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+} 
+.btn-img{
+  height: 12px;
+  width: 12px;
+  margin-left: 2px;
 }
 
 
-.center img{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
+.span{
+  display: flex;
+  align-items: baseline;
+  margin-bottom:10px;
+}
+
+.span h3{
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.span p{
+  font-size: 10px;
+  font-weight: 600;;
+  color: rgb(169, 169, 169);
+}
+
+.center h2{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.btn{
+  display: flex;
+  gap: 5px;
+  margin-left: 5px;
+  margin-bottom: 3.6rem;
+}
+
+.btn button{
+  padding: 5px 8px;
+  font-size: 10px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  background-color:rgb(230, 228, 228);
+  color: rgb(73, 73, 73);
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #dadada;
+  padding-top: 15px;
+}
+
+.lft h2{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.lft p{
+  font-size: 9px;
+  font-weight: 600;
+  color: rgb(169, 169, 169);
+}
+
+.bottom button{
+  padding: 7px 15px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
 }
